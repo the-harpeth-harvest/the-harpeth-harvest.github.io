@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+  
+  <style>
+    body,html{margin:0;padding:0}.content-pane{font-family:'Source Serif 4';padding:0 0 0 10px;font-weight:400;font-size:18px}.topBar{display:flex;flex-direction:row;justify-content:space-between;background-color:#eee;padding:0;margin:0;font-size:30px;font-family:'Josefin Sans';font-weight:600}.topBrand{width:300px;height:50px;display:flex;flex-direction:row;margin:auto 0}.topLogo{width:50px;height:40px;object-fit:contain;margin:auto 0}.topName{padding:0 0 0 5px;margin:auto 0}.nav{display:flex;flex-direction:row}.nav li{list-style-type:none;padding:0 30px}.nav li a{text-decoration:none}
+  </style>
+  <title>Harpeth Harvest — Harpeth Harvest</title>
+
+</head>
+<body>
+<div class="org">
+    <div class="topBar">
+    <div class="topBrand">
+        <img src="/assets/esri-logo.jpg" class="topLogo"/>
+        <p class="topName">Harpeth Harvest</p>
+    </div>
+    <div class="navContainer">
+        <ul class="nav">
+            <li>
+                <a href="/">Home</a>
+            </li>
+            <li>
+                <a href="/research">Research</a>
+            </li>
+            <li>
+                <a href="/consulting">Consulting</a>
+            </li>
+            <li>
+                <a href="/">About</a>
+            </li>
+        </ul>
+    </div>
+</div>
+    <div class="content-pane">
+      <p>Welcome to Harpeth Harvest...</p>
+<p>The quick white gilly jumps over the lazy Tate</p>
+<p>We are Harpeth Harvest, an agricultural research collective focused on growing specialty crops. We grow a variety of foods including truffles, tomatoes, basil, spices, etc</p>
+<p>We have an aquaponic greenhouse and dozens of acres of truffle grow land. In addition to selling produce, we publish all of our data in the form of publicly available research papers. To learn more, go to <a href="/research">research</a>.</p>
+<style>
+    .splide__slide img {
+        height:auto;
+        max-height:500px;
+        width:100%;
+        object-fit:contain;
+    }
+    #imageCarousel {
+        width:100%;
+        max-width:500px;
+    }
+</style>
+<link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
+<script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
+<section id="imageCarousel" class="splide" aria-label="Image collection">
+  <div class="splide__track">
+		<ul class="splide__list">
+<p><li class="splide__slide">
+<img src="/assets/greenhouse_stock1.png" alt="greenhouse_stock1.png"/>
+</li></p>
+<p><li class="splide__slide">
+<img src="/assets/greenhouse_stock2.png" alt="greenhouse_stock2.png"/>
+</li></p>
+<p><li class="splide__slide">
+<img src="/assets/barramundi_stock.png" alt="barramundi_stock.png"/>
+</li></p>
+<p></ul></p>
+  </div>
+</section>
+<script type='module'>
+    new Splide( '#imageCarousel',{
+    type:'loop'
+    }).mount();
+</script>
+
+    </div>
+</div>
+</body>
+</html>
