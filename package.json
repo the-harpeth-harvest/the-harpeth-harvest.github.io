@@ -1,0 +1,17 @@
+{
+  "name": "harpeth-harvest",
+  "version": "1.0.0",
+  "description": "The official Harpeth Harvest website",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "test",
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "author": "G. Owen",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "clean-css": "^5.3.3"
+  }
+}
